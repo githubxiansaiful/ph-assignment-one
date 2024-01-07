@@ -389,3 +389,79 @@ a.xs-btn:hover {
     margin-top: 100px;
     background: #070211;
 }
+#footer .container {
+    padding-top: 80px;
+}
+.xs-fdiv {
+    color: #fff;
+}
+.xs-fdiv:first-child p {
+    color: #fff;
+    max-width: 280px;
+    font-size: 16px;
+}
+.xs-footer-top {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.xs-fdiv ul {
+    padding: 0 !important;
+    list-style: none;
+    text-align: right;
+}
+.xs-fdiv ul li a {
+    color: #fff;
+    transition: .3s;
+}
+.xs-fdiv ul li:first-child {
+    position: relative;
+    left: -14px;
+    margin-bottom: 5px;
+}
+.xs-fdiv ul li a:hover {
+    color: #ff0000;
+}
+.xs-fdiv ul li a svg {
+    position: relative;
+    top: 8px;
+    margin-right: 10px;
+}
+.xs-footer-top {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #eeeeee29;
+}
+.xs-footer-social {
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee29;
+}
+.xs-footer-social svg {
+    width: 50px;
+}
+.xs-footer-social ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+.xs-footer-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.xs-footer-social ul li:last-child {
+    margin-right: 0 !important;
+}
+.xs-footer-copyright {
+    padding: 25px 0;
+}
+.xs-footer-copyright .xs-fcdiv,
+.xs-footer-copyright .xs-fcdiv p,
+.xs-footer-copyright .xs-fcdiv a {
+    font-size: 14px;
+    color: #fff;
+}
+.xs-footer-copyright {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.xs-footer-copyright .xs-fcdiv:last-child {
+    text-align: right;
+}
