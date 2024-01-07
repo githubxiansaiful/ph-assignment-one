@@ -134,7 +134,7 @@ a.xs-btn:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("/images/welcome-text-bg-color.svg");
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);    ;
 }
 .xs-welcome-content {
     z-index: 99;
@@ -321,4 +321,71 @@ a.xs-btn:hover {
 }
 .portfolio-image-content .port-image:hover img {
     transform: scale(1.3);
+}
+/* Newsletter Subscribe Section CSS */
+#subscribe-newsletter {
+    margin-top: 100px;
+}
+#subscribe-newsletter .container {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.xs-newsletter-content {
+    padding: 40px 60px;
+    text-align: center;
+    padding-bottom: 60px !important;
+}
+.xs-newsletter-content span svg {
+    max-width: 120px;
+}
+.xs-newsletter-content h3 {
+    color: #000;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.xs-newsletter-content p {
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.xs-subs-form {
+    position: relative;
+    margin-top: 30px !important;
+    width: 100%;
+    max-width: 580px;
+    margin: auto;
+    overflow: hidden;
+}
+.xs-subs-form input[type=email] {
+    padding: 0 30px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+    position: relative;
+}
+.xs-subs-form input[type=submit] {
+    background-color: #ff0000;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    width: 100%;
+    padding: 0 30px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    max-width: 180px;
+    position: absolute;
+    right: 0;
+    height: 60px;
+    cursor: pointer;
+    top: 0;
+}
+/* Footer Section CSS */
+#footer {
+    margin-top: 100px;
+    background: #070211;
 }
