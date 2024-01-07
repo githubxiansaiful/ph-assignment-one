@@ -169,3 +169,25 @@ a.xs-btn:hover {
     margin-bottom: 20px;
     max-width: 630px;
 }
+/* Event Section CSS */
+#event-details {
+    margin-top: 60px;
+}
+#event-details .container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 20px;
+    padding: 100px 0;
+}
+#event-details .xs-event-details-content {
+    text-align: center;
+}
+.xs-event-details-content p {
+    font-size: 28px;
+}
+.xs-event-details-content p span {
+    color: #ff0000;
+    font-weight: bold;
+}
+.xs-event-details-content a {
+    margin-top: 30px;
+}
