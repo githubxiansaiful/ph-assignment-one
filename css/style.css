@@ -21,7 +21,7 @@ h6 {
     width: 90%;
     position: relative;
 }
-/* Hero Section CSS */
+/* Section one: Hero Section CSS */
 #hero-section {
     margin-top: 50px;
 }
@@ -65,4 +65,32 @@ h6 {
     margin-left: auto;
     max-width: 600px;
     line-height: 1.1;
+}
+/* Section two: Offer section */
+#offer-section {
+    margin-top: 60px;
+}
+.xs-offer-content {
+    text-align: center;
+}
+.xs-offer-content p.offer-text {
+    font-size: 62px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.offer-sub-text {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ff0000;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.offer-categories {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.xs-offer-content img {
+    max-width: 800px;
 }
