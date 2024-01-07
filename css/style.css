@@ -114,6 +114,7 @@ a.xs-btn:hover {
 }
 .xs-offer-content img {
     max-width: 800px;
+    width: 100%;
 }
 /* Welcome Text Section CSS */
 #welcome-text-section {
@@ -244,4 +245,35 @@ a.xs-btn:hover {
 }
 .title-ysubtext {
     margin-bottom: 10px;
+}
+/* Holiday Sale Section CSS */
+#holiday-sales {
+    margin-top: 100px;
+}
+.xs-holiday-sales {
+    text-align: center;
+}
+.xs-holiday-sales p.holi-sub-text {
+    text-transform: uppercase;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.xs-holiday-sales h2 {
+    font-size: 62px;
+    list-style: 1.1;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.xs-holiday-sales h2 span {
+    font-family: 'Merriweather', serif;
+    color: #ff0000;
+}
+.xs-holiday-sales p.holi-sale-des {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.xs-holiday-sales img {
+    width: 100%;
 }
