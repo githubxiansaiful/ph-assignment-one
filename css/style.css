@@ -277,3 +277,48 @@ a.xs-btn:hover {
 .xs-holiday-sales img {
     width: 100%;
 }
+/* Portfolio Section CSS */
+#portfolio-boxs {
+    margin-top: 100px;
+}
+.portfolio-content span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+.portfolio-content h3 {
+    color: #000;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.portfolio-content p {
+    max-width: 750px;
+}
+.portfolio-image-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 15px;
+    grid-column-gap: 15px;
+}
+.portfolio-image-content {
+    margin-top: 30px;
+}
+.portfolio-image-content .port-image {
+    transition: .3s;
+    transform: scale(1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.portfolio-image-content .port-image img {
+    width: 100%;
+    transition: .3s;
+    height: 100%;
+}
+.portfolio-image-content .port-image:hover img {
+    transform: scale(1.3);
+}
