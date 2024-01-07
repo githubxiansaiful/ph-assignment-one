@@ -1,3 +1,4 @@
+/* Global CSS Start */
 * {
     padding: 0;
     margin: 0;
@@ -6,6 +7,7 @@
 a {
     text-decoration: none;
     color: #FF0000;
+    font-size: 16px;
 }
 h1,
 h2,
@@ -15,6 +17,25 @@ h5,
 h6 {
     font-family: 'Merriweather', serif;
 }
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+}
+a.xs-btn {
+    border: 1px solid #ff0000;
+    display: inline-block;
+    width: 125px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: #ff0000;
+    transition: .3s;
+}
+a.xs-btn:hover {
+    background: transparent !important;
+}
+/* Global CSS END */
 .container {
     max-width: 1320px;
     margin: auto;
@@ -93,4 +114,58 @@ h6 {
 }
 .xs-offer-content img {
     max-width: 800px;
+}
+/* Welcome Text Section CSS */
+#welcome-text-section {
+    margin-top: 60px;
+}
+#welcome-text-section .container {
+    position: relative;
+    background-image: url("/images/sec-3bg.jpg");
+    overflow: hidden;
+    border-radius: 20px;
+}
+#welcome-text-section .container:before {
+    border-radius: 20px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/welcome-text-bg-color.svg");
+}
+.xs-welcome-content {
+    z-index: 99;
+    position: relative;
+    padding: 60px;
+    overflow: hidden;
+    display: flex;
+}
+.xs-welcome-content .xs-wl {
+    width: 70%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.xs-welcome-content .xs-wr {
+    width: 30%;
+    float: left;
+    text-align: right;
+}
+.xs-welcome-content h2 {
+    font-size: 62px;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.xs-welcome-content h2 span {
+    font-family: 'Merriweather', serif;
+    display: block;
+}
+.xs-welcome-content p {
+    color: #fff;
+    margin-bottom: 20px;
+    max-width: 630px;
 }
