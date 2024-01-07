@@ -19,7 +19,7 @@ h6 {
 }
 p {
     line-height: 1.6em;
-    font-size: 16px;
+    font-size: 18px;
 }
 a.xs-btn {
     border: 1px solid #ff0000;
@@ -190,4 +190,58 @@ a.xs-btn:hover {
 }
 .xs-event-details-content a {
     margin-top: 30px;
+}
+/* Offer Coming Soon Section CSS */
+#coming-soon-offer {
+    margin-top: 60px;
+}
+.xs-offer-coming-content {
+    display: flex;
+    overflow: hidden;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(1),
+.xs-offer-coming-content .xs-o-col:nth-child(3) {
+    width: 30%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(2) {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(3) img {
+    width: 140px;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(2) img {
+    border-radius: 50%;
+    border: 15px solid #ff0000;
+    padding: 20px;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(1) span {
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 10px;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(1) h3 {
+    color: #000;
+    font-size: 36px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.xs-offer-coming-content .xs-o-col:nth-child(3) p.title-year {
+    font-size: 36px;
+    line-height: 1.1;
+    font-weight: bold;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+.title-ysubtext {
+    margin-bottom: 10px;
 }
