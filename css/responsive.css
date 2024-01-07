@@ -1,0 +1,90 @@
+@media all and (max-width: 600px) {
+    .xs-hero-content h1 {
+        font-size: 42px;
+    }
+    .xs-offer-content p.offer-text {
+        font-size: 52px;
+    }
+    .xs-welcome-content {
+        padding: 30px 30px;
+        display: block;
+    }
+    .xs-welcome-content h2 {
+        font-size: 42px;
+    }
+    .xs-welcome-content .xs-wl {
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    .xs-welcome-content .xs-wr {
+        width: 100%;
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .xs-welcome-content .xs-wr img {
+        width: 250px;
+        margin: auto;
+    }
+    #event-details .xs-event-details-content {
+        padding: 0 30px;
+    }
+    .xs-event-details-content p {
+        font-size: 22px;
+    }
+    .xs-offer-coming-content .xs-o-col:nth-child(1), 
+    .xs-offer-coming-content .xs-o-col:nth-child(3) {
+        width: 100%;
+        float: none;
+        display: block;
+        flex-direction: unset;
+        justify-content: unset;
+        text-align: center;
+    }
+    .xs-offer-coming-content .xs-o-col:nth-child(3) {
+        margin-top: 20px;
+    }
+    .xs-offer-coming-content .xs-o-col:nth-child(2) {
+        width: 100%;
+        float: none;
+        text-align: center;
+        overflow: hidden;
+    }
+    .xs-offer-coming-content {
+        display: block;
+    }
+    .xs-holiday-sales h2 {
+        font-size: 40px;
+    }
+    .xs-newsletter-content {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .xs-offer-coming-content .xs-o-col:nth-child(2) img {
+        margin-top: 20px;
+    }
+}
+@media all and (max-width: 440px) {
+    .xs-footer-top {
+        display: block;
+        grid-template-columns: unset;
+    }
+    .xs-fdiv ul {
+        text-align: left;
+    }
+    .xs-fdiv ul li:first-child {
+        left: 0px;
+        margin-bottom: 5px;
+        margin-top: 15px;
+    }
+    .xs-footer-copyright {
+        display: block;
+        grid-template-columns: unset;
+    }
+    .xs-footer-copyright .xs-fcdiv:last-child {
+        text-align: left;
+        margin-top: 15px;
+    }
+}

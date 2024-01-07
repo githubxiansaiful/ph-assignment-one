@@ -35,6 +35,9 @@ a.xs-btn {
 a.xs-btn:hover {
     background: transparent !important;
 }
+a.xs-btn.xs-btn-red:hover {
+    color: #ff0000;
+}
 /* Global CSS END */
 .container {
     max-width: 1320px;
@@ -89,7 +92,7 @@ a.xs-btn:hover {
 }
 /* Section two: Offer section */
 #offer-section {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 .xs-offer-content {
     text-align: center;
@@ -118,7 +121,7 @@ a.xs-btn:hover {
 }
 /* Welcome Text Section CSS */
 #welcome-text-section {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 #welcome-text-section .container {
     position: relative;
@@ -172,7 +175,7 @@ a.xs-btn:hover {
 }
 /* Event Section CSS */
 #event-details {
-    margin-top: 60px;
+    margin-top: 100px;
 }
 #event-details .container {
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
@@ -212,6 +215,7 @@ a.xs-btn:hover {
     width: 40%;
     float: left;
     text-align: center;
+    overflow: hidden;
 }
 .xs-offer-coming-content .xs-o-col:nth-child(3) img {
     width: 140px;
@@ -220,6 +224,7 @@ a.xs-btn:hover {
     border-radius: 50%;
     border: 15px solid #ff0000;
     padding: 20px;
+    width: 70%;
 }
 .xs-offer-coming-content .xs-o-col:nth-child(1) span {
     color: #ff0000;
